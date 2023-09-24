@@ -7,8 +7,18 @@
 # This is an .xls file extension, Excel 97-Excel 2003 Workbook , The Excel 97 - Excel 2003 Binary file format (BIFF8).
 # We can import both .xls and .xlsx file using download.file() function from readxl package
 
+
+# 1. Ensure Pacman is loaded to install all required packages 
+packages <- c("pacman") 
+# Install packages not yet installed 
+installed_packages <- packages %in% rownames(installed.packages()) if (any(installed_packages == FALSE)) { install.packages(packages[!installed_packages]) } 
+# Packages loading 
+invisible(lapply(packages, library, character.only = TRUE))
+
+# Load 
 pacman::p_load(readxl,here,dplyr,janitor) 
-  
+
+# 1. Import data into R
 AE_data <- function() {
   
   if(!dir.exists("data")){dir.create("data")}
