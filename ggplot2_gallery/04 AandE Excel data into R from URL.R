@@ -8,7 +8,7 @@
 # We can import both .xls and .xlsx file using download.file() function from readxl package
 
 
-# 1. Ensure Pacman is loaded to install all required packages 
+# 1. Ensure Pacman is installed and loaded to proceed with the installation of required packages 
 packages <- c("pacman") 
 # Install packages not yet installed 
 installed_packages <- packages %in% rownames(installed.packages()) if (any(installed_packages == FALSE)) { install.packages(packages[!installed_packages]) } 
