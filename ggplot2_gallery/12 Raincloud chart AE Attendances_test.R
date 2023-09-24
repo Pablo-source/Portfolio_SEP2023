@@ -1,5 +1,12 @@
 # 12 Raincloud chart AE Attendances
 
+# 1. Ensure Pacman is installed and loaded to proceed with the installation of required packages 
+packages <- c("pacman") 
+# Install packages not yet installed 
+installed_packages <- packages %in% rownames(installed.packages()) if (any(installed_packages == FALSE)) { install.packages(packages[!installed_packages]) } 
+# Packages loading 
+invisible(lapply(packages, library, character.only = TRUE))
+
 # Load required packages at once (readxl,here,dplyr,janitor)
 pacman::p_load(readxl,here,tidyverse,janitor)
 
