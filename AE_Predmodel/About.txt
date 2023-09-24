@@ -1,0 +1,1 @@
+This is an example on how to run 5 univariate time series models (ARIMA, TBATS, ETS, ENSAMBLE, HYBRID) and compare its performance using RMSE accuracy measure to assess the best performing model on each model run.
