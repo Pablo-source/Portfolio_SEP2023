@@ -6,3 +6,4 @@ Collection of different R, Python and ML projects
 
 ### 2. PREDICTIVE MODEL
 - Example of a predictive model using publicly available A&E data to forecast next 5 days attendances and admissions
+- It also includes an example on how to use the taskcheduler package in R to run any model daily based on a set of user defined conditions
