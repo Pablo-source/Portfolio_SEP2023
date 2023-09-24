@@ -1,0 +1,2 @@
+- This is a collection of ggplot2 charts I shared with NHSR-Community incorporating feedback from their code review
+- I applied the standard coding practices across NHS-R developers
