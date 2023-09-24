@@ -15,7 +15,7 @@ installed_packages <- packages %in% rownames(installed.packages()) if (any(insta
 # Packages loading 
 invisible(lapply(packages, library, character.only = TRUE))
 
-# Load 
+# Load all required packages
 pacman::p_load(readxl,here,dplyr,janitor) 
 
 # 1. Import data into R
