@@ -1,0 +1,4 @@
+This is an example on another repo from this GitHub account about a Shiny app using COVID data including tables LEAFLET maps and Plotly charts:
+It has got a modular structure, each part of the shiny app is split into different scripts also the data download and data wrangling are separate scripts
+
+https://github.com/Pablo-source/Shiny-app-using-COVID-data/tree/main
