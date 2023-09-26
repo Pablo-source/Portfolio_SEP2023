@@ -16,7 +16,7 @@ Collection of different R, Python and ML projects
 ### 4. Example on how to use {renv}
 - Using Tidymodels to build a linear regression model using {renv} to freeze and restore the package version used. Able to activate and de-activate this environment on demand
 
-### Python Scrits
+### Python Scripts
 
 - ARIMA
 - Exponential Smoothing
